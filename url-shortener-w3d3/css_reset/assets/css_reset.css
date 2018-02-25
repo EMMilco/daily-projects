@@ -1,0 +1,19 @@
+html,body,header,nav,aside,section,ul,li,ol,img,figure,h2,form,input,label,footer,p,select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font-family: inherit;
+  font-size: inherit;
+  font-size: 100%
+
+}
+
+  body {
+    line-height: 1.5
+  }
+
+  img {
+    width: 100%;
+
+  }

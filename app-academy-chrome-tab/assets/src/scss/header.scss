@@ -1,0 +1,71 @@
+.header {
+  position: relative;
+  background: #f00;
+  padding: 0 10px;
+  z-index: 4;
+  min-height: 55px;
+
+  .logo {
+    height: 33px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    left: 3px;
+  }
+
+  .name {
+    display: inline-block;
+  }
+
+  .name a {
+    display: block;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .menu {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    list-style: none;
+    color: white;
+
+    .inactive:hover {
+      cursor: default;
+      color: white;
+    }
+
+    li {
+      position: relative;
+      display: inline-block;
+      padding: 19px 7px;
+
+      &:hover {
+        cursor: pointer;
+        color: orange;
+
+        ul {
+          display: block;
+        }
+      }
+    }
+
+    ul {
+      position: absolute;
+      top: 55px;
+      right: 5px;
+      display: none;
+      width: 160px;
+
+      li {
+        padding: 10px 5px;
+        text-align: right;
+        color: black;
+        background: white;
+        display: block;
+      }
+    }
+  }
+}

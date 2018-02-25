@@ -1,0 +1,48 @@
+.clock {
+  font-family: 'Fira Sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  background-color: #AD27D9;
+  padding: 10px 40px;
+  font-size: 24px;
+  color: white;
+  border: 2px solid black;
+}
+
+main {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.tabs {
+  width: 500px;
+  padding: 10px 10px;
+}
+
+.tabs > header {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs li {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.tabs ul {
+  list-style: none;
+}
+
+.tabs li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.tabs li.selected {
+  font-weight: bold;
+  color: forestgreen;
+}

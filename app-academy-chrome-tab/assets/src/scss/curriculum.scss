@@ -1,0 +1,23 @@
+.curriculum {
+  min-width: 500px;
+  height: 100%;
+  flex-grow: 1;
+  padding: 20px;
+
+  &.sign-in {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+
+    .sign-in-link {
+      color: red;
+
+      &:hover {
+        cursor: pointer;
+        color: orange;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd ~/Documents/app-academy-chrome-tab
+
+git fetch --all
+git reset --hard origin/master
+
+exit 0

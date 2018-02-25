@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+require 'launchy'
+
+puts 'please enter your email'
+user = User.find_by(email: gets.chomp)
+# puts user.visited_urls.map { |url| url.long_url }
+
+puts "do you want to make new short url (1) or visit an existing url (2)"
+if gets.chomp == "1"
+  new_url = ShortenedUrl.create!(user_id: user.id, long_url: gets.chomp )
+  puts new_url.short_url
+elsif get.chomp == "2"
+  puts "Please enter your short url."
+  short_url = gets.chomp
+  url_object = shortened_url.find_by(short_url)
+  visit.create!(user_id: user.id, shortened_url_id: url_object.id )
+  Launcy.open(url_object.long_url)
+end
+
+
+#if user selects to create a new short_url

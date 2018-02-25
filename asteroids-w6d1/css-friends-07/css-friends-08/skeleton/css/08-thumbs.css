@@ -1,0 +1,17 @@
+/* PHASE 8: Thumbs */
+.thumb {
+  
+}
+
+
+.thumb-li {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  
+}
+
+.thumbs:nth-child(3n) {
+  margin-right: 0px;
+}

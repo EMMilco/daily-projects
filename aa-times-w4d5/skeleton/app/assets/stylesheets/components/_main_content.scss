@@ -1,0 +1,68 @@
+main  {
+  padding-top: 20px;
+}
+
+main h1 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+main h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+main .col-1-1 ul {
+  list-style: disc;
+  margin-left: 0;
+  padding-left: 15px;
+  line-height: 1.5
+}
+
+main .col-1-1 ul li {
+  padding-bottom: 10px;
+}
+
+.byline {
+  color: $gray;
+  padding-bottom: 10px;
+}
+
+.comments {
+  color: $light-blue;
+  font-family: $sans-serif;
+  font-size: 11px;
+}
+
+.comments:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+main .col-2 iframe {
+  // padding-bottom: 10px;
+}
+
+main .col-2 {
+  // border-bottom-style: double;
+  // border-bottom: 2px solid $light-gray;
+  
+}
+
+main .subsection-header {
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+main h3 {
+  margin-top: 2px;
+}
+
+main h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+main h2 {
+  text-align: center;
+}

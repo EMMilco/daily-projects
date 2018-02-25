@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GoalApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <% if logged_in? %>
+    <%= button_to "Log Out", session_url, method: :delete %>
+    <%= current_user.username %>
+  <% end %>
+  
+  <%= flash[:errors] %>
+  
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

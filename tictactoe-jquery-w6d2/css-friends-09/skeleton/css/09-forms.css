@@ -1,0 +1,56 @@
+/* PHASE 9: Forms */
+.content-main .thumb {
+  float: left;
+
+}
+ .form {
+   background: #DCDCDC;
+   padding: 20px;
+   border-radius: 6px;
+
+ }
+
+section.form {
+  width: 80%;
+  float: right;
+}
+
+section.form input[type="text"]  {
+  border: 1px solid black;
+  margin: 10px 0;
+  background: white;
+  width:100%;
+  border-radius: 5px;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+section.form textarea  {
+  border: 1px solid black;
+  background: white;
+  margin: 10px 0;
+  width:100%;
+  border-radius: 6px;
+  padding:10px;
+  box-sizing: border-box;
+
+}
+section.form label {
+  display:block;
+}
+
+input[type="submit"] {
+  color: white;
+  background: limegreen;
+  padding: 10px 20px;
+  border-bottom: 4px solid darkgreen;
+  border-radius: 6px;
+  margin-top: 20px;
+  float:left;
+
+}
+
+.submit {
+  display:flex;
+  align-items: center;
+}

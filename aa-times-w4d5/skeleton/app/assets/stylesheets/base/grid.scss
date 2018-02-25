@@ -1,0 +1,44 @@
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+/* Attribute selector targeting all elements
+with a class attribute containing 'col-' */
+[class*='col-'] {
+  padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.col-1 {
+  width: 64.57%;
+}
+
+.col-1-1  {
+  width: 20.83%;
+}
+
+.col-1-2 {
+  width: 43.75%;
+}
+
+.col-2 {
+  width: 35.42%;
+}
+
+.col-2-1 {
+  width: 16.67%;
+}
+
+.col-2-2 {
+  width: 18.75%;
+}
+
+@media all and (max-width: 1000px) {
+  [class*='col-'] {
+    width: 100%;
+  }
+}
